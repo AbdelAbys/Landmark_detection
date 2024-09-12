@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## Preprocessing for training
-
+Marwa we need to include the processing that you made from raw to segmented image used as input for the landmarking code ! This should include segmentation, registration, all the processing steps ! 
 ### Step 1: Convert FCSV to CSV
 
 To convert the ground truth file containing landmarks of each image from the FCSV format to CSV format, use the script located in `./preprocessing/fscv-to-csv.py`:
